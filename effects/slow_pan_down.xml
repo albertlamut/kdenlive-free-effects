@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE kpartgui>
+<effect tag="affine" id="slow_pan_down" type="video" context="nomovit">
+<name>Slow Pan Top to Bottom</name>
+<parameter type="animatedrect" name="transition.rect" default="0=-288 0 2496 1404;149=-288 -324 2496 1404" opacity="false">
+<name>Rectangle</name>
+</parameter>
+<parameter type="fixed" name="transition.distort" default="0"/>
+<parameter type="fixed" name="transition.repeat_off" default="1"/>
+<parameter type="fixed" name="transition.mirror_off" default="1"/>
+</effect>

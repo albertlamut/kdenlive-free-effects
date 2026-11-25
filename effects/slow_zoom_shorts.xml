@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE kpartgui>
+<effect tag="affine" id="slow_zoom_shorts" type="video" context="nomovit">
+<name>Slow Zoom In - Shorts</name>
+<description>Vertical cinematic zoom</description>
+<parameter type="animatedrect" name="transition.rect" default="0=0 0 1080 1920;149=-162 -288 1404 2496" opacity="false">
+<name>Rectangle</name>
+</parameter>
+<parameter type="fixed" name="transition.distort" default="0"/>
+<parameter type="fixed" name="transition.repeat_off" default="1"/>
+<parameter type="fixed" name="transition.mirror_off" default="1"/>
+</effect>

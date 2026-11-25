@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE kpartgui>
+<effect tag="affine" id="pan_left_zoom_out_shorts" type="video" context="nomovit">
+<name>Pan Left and Slow Zoom Out - Shorts</name>
+<description>Slide from left and slowly zoom out (9:16)</description>
+<parameter type="animatedrect" name="transition.rect" default="0=-1404 -288 1404 2496;25=-162 -288 1404 2496;149=0 0 1080 1920" opacity="false">
+<name>Rectangle</name>
+</parameter>
+<parameter type="fixed" name="transition.distort" default="0"/>
+<parameter type="fixed" name="transition.repeat_off" default="1"/>
+<parameter type="fixed" name="transition.mirror_off" default="1"/>
+</effect>
